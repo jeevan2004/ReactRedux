@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+  font-size: 35px;
+    color: #666a99;
+    margin-bottom: 20px;
+}
+
+p{
+  font-size: 20px;
+  
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.quantity{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  width: 25px;
+  text-align: center;
+  background: #999;
+  padding: 10px 15px;
+  font-size: 20px;
+}
+
+.quantity_input{
+  width: 42px;
+  padding: 14px;
+  text-align: center;
+}
